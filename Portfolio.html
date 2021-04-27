@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>It's my portfolio</title>
+    <style>
+    body{
+    cursor:pointer;
+    background:linear-gradient(to right,pink,blue);    
+    scroll-behavior: smooth;
+    }
+    header{
+    display: flex;
+    }
+   /*designing the heading*/
+   .head{
+   position:absolute;
+   top:1px;
+   left:1em;
+   color:brown;
+   background:orange;
+   padding:10px 20px;
+   }
+   /*Navigating nav ul li*/
+   nav ul li{
+   display:inline-block ;
+   position: relative;
+   top:2px;
+   left:42em;
+   margin-right:10px;
+   font-size:20px ;
+   background:orange;
+   padding:10px 20px;
+   color:brown;
+   font-weight: bold;
+   }
+   /*about the following*/
+   .about{
+    position: relative;
+    top:5em;
+    height:45em;
+    width: 85%;
+    border:2px solid blue;
+    border-left-color:pink;
+    background: white;
+    margin-left:6em;
+    
+   }
+   /*styling my own image*/
+   .me{
+    height:39em;
+    width:50%;
+    float:left;    
+    position: relative;
+    top:30px;
+    left:4em;
+    border-radius:20px;
+    }
+    /*second div in county*/
+    .con{
+    position: relative;
+    top:6em;
+    height:30em;
+    width:100%;
+    border:2px solid white;
+    border-top-color:aqua;
+    background: white;
+    }
+    /*designing the about me*/
+    .bout{
+    position: relative;
+    left:38px;
+    font-size:2em;
+    text-transform: uppercase; 
+    }
+    /*skill class*/
+    .Mys{
+    font-size:33px;
+    text-transform: uppercase;
+    }
+    /*ul li*/
+    .o1,.o2,.o3,.o4{
+    font-size: 20px;
+    color:chocolate;
+    list-style-type: none;
+    position: relative;
+    left:-20px
+    }
+    /*writing some thing in it*/
+    .some{
+    text-align: justify;
+    left:40px;
+    font-size: 20px;
+    width:50%;
+    height:6em;
+    background-color: white;
+    border:2px solid white;
+    position: relative;
+    }
+    /*inserting image in the right corner*/
+    .scooty{
+    height:22em;
+    width:50%;
+    border:2px solid black;
+    position: relative;
+    left:40em;
+    bottom:16em;
+    }
+    /*inserting following links*/
+    .social{
+    position: relative;
+    top:17em;
+    height:30em;
+    width:100%;
+       }
+    .soc{
+    text-transform: uppercase;
+    margin:5em 10em;
+    }
+    /*quora*/
+    .quo{
+        padding:16px 40px;
+        border:1px solid red;
+        color:black;
+        text-align: center;
+        margin-left:10px;
+        background: linear-gradient(360deg,cyan,blue);
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .you{
+        padding:16px 40px;
+        border:1px solid red;
+        color:black;
+        text-align: center;
+        margin-left:10px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background: linear-gradient(to left,lightblue,lightgreen);
+    
+         }
+    .Ins{
+        padding:16px 40px;
+        border:1px solid red;
+        color:black;
+        text-align: center;
+        margin-left:10px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: linear-gradient(to left,pink,yellow);
+    }
+    .lin{
+        padding:16px 40px;
+        border:1px solid red;
+        color:black;
+        text-align: center;
+        margin-left:10px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background:linear-gradient(20deg,red ,yellow);
+    }
+    .quo,.you,.Ins,.lin{
+    position: relative;
+    left: 23em;
+    }
+    .copy{
+  position: relative;
+  top:10em;
+  left:20em;
+  font-size:20px;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="head">Abhinav</h1>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Portfolio</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="about">
+    <img src="good.jpg" alt="cons" class="me">
+    </div>
+    <!--ading second div-->
+    <div class="con">
+    <!--about me-->
+    <h1 class="bout">About me</h1>    
+    <div class="some">Hello everyone I'm Abhinav Sharma founder of NimcetGuru.com .I have completed my M.C.A from the National
+    Institute of technology ,Trichy. Since then I'm guiding M.C.A aspirants in that manner which they must be able 
+    to tackle the examination in the good manner. 
+    </p>
+    <h1 class="Mys">My skills</h1>
+    <ul class="o1">
+        <li class="o2">Web & App development</li>
+        <li class="o3">Photo & Video editing</li>
+        <li class="o4">Mathematics & Electronics</li>
+    </ul>    
+    <img src="scooty.jpg" alt="alg hai ye" class="scooty">
+</div>
+<div class="social">
+<h1 class="soc">Follow me social platforms</h1>
+<!--adding social media button-->
+<span>
+    
+    <a href="https://www.quora.com/profile/Abhinav-Sharma-1770" target="_blank"><button class="quo">Quora</button></a>
+    <a href="https://www.youtube.com/channel/UCySzSGkY6k7AIukFU6wuMug" target="_blank"><button class="you">Youtube</button></a>
+    <a href="https://www.instagram.com/" target="_blank"><button class="Ins">Instagram</button></a>
+    <a href="https://www.linkedin.com/in/abhinav-sharma-2002/" target="_blank"><button class="lin">LinkedIn</button></a>
+</span>
+<!--copyright method-->
+<p class="copy">Copyright  @2020-2021 Abhinav Sharma Corporation</p>
+</div>
+</body>
+</html>
